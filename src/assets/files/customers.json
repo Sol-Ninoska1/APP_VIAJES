@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "name": "Francisco",
+            "state": "¡Sigue adelante, siempre hay más por lograr!",
+            "description": "Cada desafío es una oportunidad para crecer. Lo mejor está por venir.",
+            "image": "avatar-han.png"
+        },
+        {   
+            "name": "Javier",
+            "state": "Confía en ti mismo, eres más fuerte de lo que crees",
+            "description": "Tienes todo el potencial para alcanzar tus sueños. ¡Nunca te detengas!",
+            "image": "avatar-luke.png"
+        },
+        {   
+            "name": "Juan",
+            "state": "El futuro es brillante, ¡hazlo tuyo!",
+            "description": "Cada paso que das te acerca más a la vida que deseas. ¡Sigue adelante con confianza!",
+            "image": "avatar-leia.png"
+        }
+    ]
+}

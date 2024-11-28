@@ -1,0 +1,21 @@
+<ion-header>
+  <app-header [pageName]="pageName"></app-header>
+</ion-header>
+<ion-header>
+  <ion-toolbar color="mycolor">
+    <ion-title>Ciudades</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-row>
+    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let city of cities">
+      <ion-card [routerLink]="['/city',city.id]">
+        <img src="../../assets/img-cities/{{city.image}}">
+        <div class="card-title">{{city.name}}</div>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+
+</ion-content>

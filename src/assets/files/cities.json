@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Alicante",
+            "image": "alicante.jpg",
+            "desc": "Alicante es una ciudad costera situada en la Comunidad Valenciana, famosa por sus hermosas playas y su castillo histórico, el Castillo de Santa Bárbara, que ofrece vistas panorámicas al mar Mediterráneo. Además, es conocida por su clima cálido, su puerto y la vibrante vida nocturna, así como por su gastronomía basada en arroz y mariscos."
+        },
+        {   
+            "id": 2,
+            "name": "Valencia",
+            "image": "valencia.jpg",
+            "desc": "Valencia es una ciudad en la costa este de España, conocida por su Ciudad de las Artes y las Ciencias, un complejo arquitectónico futurista que alberga museos y un acuario. Valencia también es famosa por su legado histórico, como la Lonja de la Seda, y por ser la cuna de la paella. Además, cuenta con amplias playas y un centro histórico bien conservado."
+        },
+        {   
+            "id": 3,
+            "name": "Castellón",
+            "image": "castellon.jpg",
+            "desc": "Castellón de la Plana es una ciudad situada en la Comunidad Valenciana, famosa por sus playas en la costa del Mediterráneo y su proximidad al Parque Natural de la Sierra de Espino. Castellón destaca por su cultura, con monumentos como la Concatedral de Santa María y por su patrimonio industrial, especialmente en la cerámica. La ciudad también es conocida por sus fiestas tradicionales, como la Magdalena."
+        }
+    ]
+}

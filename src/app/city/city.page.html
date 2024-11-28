@@ -1,0 +1,25 @@
+<app-header [pageName]="pageName"></app-header>
+
+<ion-header>
+  <ion-toolbar color="mycolor">
+    <ion-title>{{name}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="../../assets/img-cities/{{image}}" />
+  </ion-card>
+  <div class="desc">
+    {{desc}}
+  </div>
+  <div class="button-container">
+    <ion-button (click)="goBack()">
+      <ion-icon style="margin-right: 0.3rem;" name="arrow-undo-outline"></ion-icon> 
+      Regresar
+    </ion-button>
+  </div>
+</ion-content>
+
+
+  

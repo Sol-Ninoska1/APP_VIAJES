@@ -1,0 +1,54 @@
+<app-header [pageName]="pageName">
+</app-header>
+
+<ion-content>
+  <!-- Grid con 2 columnas de descripciones -->
+  <ion-grid>
+    <ion-row>
+      <ion-col sizeLg="6" sizeMd="6" sizeXs="12">
+        <div class="texto">
+          <h2>Clientes Activos</h2>
+          <p>Actualmente tenemos más de 500 clientes activos en diferentes ciudades. Nuestro objetivo es expandirnos a nuevas localidades y mejorar la experiencia del usuario.</p>
+        </div>
+      </ion-col>
+
+      <ion-col sizeLg="6" sizeMd="6" sizeXs="12">
+        <div class="chart-text">
+          <p style="font-weight: bold; font-size: 1.2rem; color: #0761c2;">Gráfico de Clientes</p>
+        </div>
+        <div class="chart-container" style="margin-top: 1rem;">
+          <div class="chart-item">
+            <div class="circular-chart" [style.background]="'conic-gradient(#4caf50 0% 20%, #e0e0e0 20% 100%)'">
+              <span class="percentage">20%</span>
+            </div>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col sizeLg="6" sizeMd="6" sizeXs="12">
+        <div class="texto">
+          <h2>Ciudades en Expansión</h2>
+          <p>Estamos aumentando la cobertura en varias ciudades. Actualmente, estamos enfocados en 5 nuevas áreas que mostrarán un gran crecimiento en los próximos meses.</p>
+        </div>
+      </ion-col>
+
+      <ion-col sizeLg="6" sizeMd="6" sizeXs="12">
+        <div class="chart-text">
+          <p style="font-weight: bold; font-size: 1.2rem; color: #ff5722;">Gráfico de Ciudades</p>
+        </div>
+        <div class="chart-container" style="margin-top: 1rem;">
+          <div class="chart-item">
+            <div class="circular-chart" [style.background]="'conic-gradient(#ff5722 0% 15%, #e0e0e0 15% 100%)'">
+              <span class="percentage">15%</span>
+            </div>
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
+

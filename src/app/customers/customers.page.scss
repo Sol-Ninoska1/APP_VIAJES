@@ -1,0 +1,29 @@
+ion-toolbar{
+    background-color: var(--ion-color-mycolor);
+}
+
+.btn{
+    background-color: var(--ion-color-mycolor-shade);
+    color: white;
+    padding: 20px 30px 20px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#container{
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.colorBlue{
+    color: var(--ion-color-mycolor);
+}
+/* Personaliza el color del texto en ion-toolbar */
+ion-toolbar {
+    --color: #048683;  /* Cambia el color del texto e iconos dentro del toolbar */
+  }
+  
